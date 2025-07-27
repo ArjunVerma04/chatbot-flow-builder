@@ -1,12 +1,55 @@
-# React + Vite
+ Chatbot Flow Builder
+An intuitive drag-and-drop interface to visually build and manage chatbot conversation flows. Built with React, Vite, and React Flow.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📸 Demo
+https://chatbot-flow-builder-cgji.onrender.com
 
-Currently, two official plugins are available:
+🚀 Features
+📌 Drag & drop message nodes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 Connect nodes to define conversation logic
 
-## Expanding the ESLint configuration
+✍️ Edit text inside each node
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🧠 Visual builder using React Flow
+
+⚡ Lightning-fast with Vite bundler
+
+🎨 Clean and modern UI with Lucide React Icons
+
+🛠️ Built With
+React 19
+
+Vite
+
+React Flow
+
+Lucide Icons
+
+📁 Project Structure
+
+├── components/    
+├── nodes/          
+├── utils/          
+├── App.jsx
+├── main.jsx
+💻 Getting Started
+Clone and run locally:
+
+bash
+Copy
+Edit
+git clone https://github.com/ArjunVerma04/chatbot-flow-builder.git
+cd chatbot-flow-builder
+npm install
+npm run dev
+App runs at http://localhost:5173
+
+🧾 Available Scripts
+
+npm run dev       
+npm run build   
+   
+
+🌐 Deployment
+Deploy on Render:
