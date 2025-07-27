@@ -1,0 +1,107 @@
+/* App layout: sidebar + canvas */
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar panel (drag node from here) */
+.nodes-panel,
+.settings-panel {
+  width: 200px;
+  padding: 1rem;
+  background: #f4f4f4;
+  border-right: 1px solid #ddd;
+}
+
+/* React Flow canvas area */
+.flow-canvas {
+  flex-grow: 1;
+  position: relative;
+  background-color: #fcfcfc;
+}
+
+/* Save button (top-right corner) */
+.save-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 8px 14px;
+  background: #007bff;
+  color: white;
+  border: none;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Draggable node inside sidebar */
+.dndnode {
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  cursor: grab;
+  transition: background-color 0.2s ease;
+}
+
+.dndnode:hover {
+  background-color: #eaeaea;
+}
+
+/* Custom styled chatbot node */
+.custom-node {
+  width: 200px;
+  background-color: #e0f7f5;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Node header (top bar with title & icon) */
+.node-header {
+  display: flex;
+  align-items: center;
+  background: #b2f5ea;
+  padding: 6px 10px;
+  border-radius: 8px 8px 0 0;
+  font-size: 14px;
+  color: #004f4f;
+  font-weight: 600;
+}
+
+/* Node body (the message text) */
+.node-body {
+  padding: 10px;
+  font-size: 13px;
+  background-color: white;
+  color: #222;
+}
+
+/* Handles (connection points) */
+.handle {
+  width: 10px;
+  height: 10px;
+  background-color: #007bff;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+}
+
+.handle-top {
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.handle-bottom {
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
