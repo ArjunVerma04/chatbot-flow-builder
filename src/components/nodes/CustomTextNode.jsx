@@ -1,7 +1,7 @@
 import React from 'react';
 import { Handle, Position } from 'reactflow';
 import { MessageCircle } from 'lucide-react'; // optional, use emoji or SVG
-import '../../App.css';
+import '../../app.css';
 
 function CustomTextNode({ data, isConnectable }) {
   return (
