@@ -33,17 +33,7 @@ Lucide Icons
 ├── utils/          
 ├── App.jsx
 ├── main.jsx
-💻 Getting Started
-Clone and run locally:
 
-bash
-Copy
-Edit
-git clone https://github.com/ArjunVerma04/chatbot-flow-builder.git
-cd chatbot-flow-builder
-npm install
-npm run dev
-App runs at http://localhost:5173
 
 🧾 Available Scripts
 
